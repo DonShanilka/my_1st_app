@@ -15,10 +15,12 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("Bar"),
             backgroundColor: Colors.yellow,
+
           ),
-        ),
-        
-        
+          
+          body: const Icon(Icons.add),
+        ),  
     );
   }
+
 }
